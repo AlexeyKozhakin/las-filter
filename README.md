@@ -4,9 +4,8 @@ Small package to filter and downsample LAS/LAZ point clouds.
 
 Installation (from GitHub branch via pip):
 
-SSH:
 ```bash
-pip install "git+ssh://git@github.com/AlexeyKozhakin/las-filter.git@feature/packaging-cli#egg=las-filter"
+pip install "git+https://github.com/AlexeyKozhakin/las-filter.git@feature/packaging-cli#egg=las-filter"
 ```
 
 Basic CLI usage:
