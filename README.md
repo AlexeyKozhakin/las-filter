@@ -65,6 +65,8 @@ Notes & recommendations
 - The package exposes `las_filter.core` functions for programmatic use if you need finer control.
 
 # LASTools comands
+[LASTools — official docs](https://lastools.github.io/)
+
 
 ```
 laszip -i L_453_3974.laz L_453_3974.las
