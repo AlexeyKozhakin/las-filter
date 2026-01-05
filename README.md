@@ -63,3 +63,12 @@ Notes & recommendations
 - The default parameters are conservative for general LiDAR datasets; tune `--sigma`, `--M`, and `--K` for your sensor/terrain.
 - For very large files: prefer running on a machine with enough RAM and/or use `--downsample` to constrain memory use.
 - The package exposes `las_filter.core` functions for programmatic use if you need finer control.
+
+# LASTools comands
+
+```
+laszip -i L_453_3974.laz L_453_3974.las
+```
+```
+las2las -i L_453_3974.las -o L_453_3974_f.las -keep_every_nth 5
+```
