@@ -1,3 +1,6 @@
+"""Removed GUI (tk): placeholder file to keep repo minimal for packaging."""
+
+__all__ = []
 import os
 import sys
 import ctypes

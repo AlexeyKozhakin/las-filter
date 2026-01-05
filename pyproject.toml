@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "las-filter"
+version = "0.1.0"
+description = "Tools to filter and downsample LAS/LAZ point clouds"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "laspy==2.5.4",
+    "numpy==2.2.4",
+    "PyQt6==6.8.1",
+    "scipy"
+]
+
+[project.scripts]
+las-filter = "las_filter.cli:main"
